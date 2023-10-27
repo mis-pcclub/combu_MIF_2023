@@ -7,11 +7,17 @@
   background-color: #f9f9f9;
 }
 
-.element .image {
+.element {
   position: relative;
   align-self: stretch;
   width: 100%;
-  height: 300px;
+  height: auto;
+}
+.image {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: auto;
 }
 
 .element .view {
@@ -30,11 +36,11 @@
 .element .div {
   align-items: center;
   gap: 30px;
-  padding: 20px;
+  padding: 0px 20px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  /* display: flex; */
+  width: 88%;
   flex-direction: column;
   position: relative;
 }
@@ -97,6 +103,10 @@
   color: #000000;
   letter-spacing: 0;
   line-height: normal;
+  text-align: left;
+  width: 260px;
+  margin: auto;
+  padding: 30px;
 }
 
 .element .table {
@@ -116,7 +126,6 @@
   align-items: center;
   position: relative;
   align-self: stretch;
-  width: 100%;
   flex: 0 0 auto;
 }
 
@@ -255,4 +264,23 @@ hr {
 .footer {
   background: #ffc86480;
   margin: 0px;
+  padding: 10px;
+  width: 100%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box{
+  position: relative;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+}
+.box img{
+  width: 100%;
+  height: auto;
 }
